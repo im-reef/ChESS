@@ -1,0 +1,174 @@
+.wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0;
+	margin-bottom: 2rem;
+	width: 100%;
+	max-width: 85rem;
+	/*height: 100%;*/
+	max-height: 28rem;
+	box-sizing: border-box;
+	padding: 2rem 2rem 0 2rem;
+	/*border: solid 0.17rem black;*/
+	text-align: center;
+
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.fa {
+	/*padding: 0.3rem;*/
+	font-size: 1.875rem;
+	width: 3.125rem;
+	height: 3.125rem;
+	text-align: center;
+	text-decoration: none;
+	margin: 3rem 0.5rem;
+	font-weight: 100;
+}
+
+.fa-instagram {
+	/*background: #125688;*/
+	color: white;
+	/*border-radius: 50%;
+	background: linear-gradient(45deg, #FCAE46, #D42D7A, #5854C9);
+	text-align: center;
+	background-position: center center;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	filter: opacity(200%), brightness(2.0);*/
+}
+
+.fa-youtube {
+	/*background: #125688;*/
+	/*color: #FF0000;*/
+	color: white;
+	/*filter: opacity(60%);*/
+}
+
+.fa-google {
+	color: white;
+}
+
+.fa-youtube:hover {
+	color: #FF0000;
+	filter: brightness(2.0);
+	transition: 0.4s;
+}
+
+.fa-instagram:hover {
+	color: #D42D7A;
+	filter: brightness(1.5);
+	transition: 0.4s;
+}
+
+.fa-google:hover {
+	color: #34A952;
+	filter: brightness(2.0);
+	transition: 0.4s;
+}
+
+body {
+	font-family: Raleway, Calibri, serif;
+	text-align: center;
+	margin: 0;
+	background-image: linear-gradient(45deg, #FFBC42, #218380);
+	/*background-image: url(bg/globular.jpg);
+	background-position: center center;*/
+}
+
+p {
+	font-size: 0.9rem;
+}
+
+footer {
+
+	margin: 0, auto;
+	text-align: center;
+	margin-top: 40rem;
+	margin-bottom: 2rem;
+	font-family: Raleway, serif;
+}
+
+header {
+	font-family: Raleway, Calibri, serif;
+	font-size: 1.165rem;
+	margin: 0 0 4rem 0;
+}
+/*
+.but_1 {
+	padding: 10rem;
+	margin: 4rem;
+	margin-bottom: 5rem;
+	height: 10rem;
+	font-family: Calibri;
+}
+
+.but_2 {
+	margin: 10rem;
+}*/
+
+
+button {
+	padding: 1.3rem 5rem 1.3rem 5rem;
+	margin-left: 0;
+	margin-right: 0;
+	/*margin-top: 0.5rem;*/
+	margin-bottom: 0.5rem;
+	max-width: 40rem;
+	min-width: 10rem;
+	width: 100%;
+	border-radius: 0.5rem;
+	background-image: linear-gradient(90deg, #F68E5F, #F76C5E);
+	filter: opacity(80%);
+	font-size: 1.165rem;
+	font-family: Raleway,Calibri, serif;
+	box-sizing: border-box;
+	color: antiquewhite;
+	text-align: center;
+	border: solid 0.27rem #F5DD90;
+	cursor: pointer;
+}
+
+img {
+	width: 6rem;
+	margin-top:2rem;
+	border-radius: 50%;
+	border: solid 0.27rem whitesmoke;
+	padding: 0.27rem;
+}
+
+h1 {
+	font-size: 1.165rem;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.165rem;
+	font-weight: normal;
+	margin-top: 4rem;
+}
+
+button:hover {
+	background-image: none;
+	background-color: #810081;
+	color: yellow;
+	transition: 0.6s;
+}
+
+hr {
+	border: 1px solid olive;
+	filter: opacity(50%);
+}
+
+@font-face {
+	scr: url(fonts/Raleway-VariableFont_wght.ttf, Raleway-Italic-VariableFont_wght.ttf);
+	font-family: Raleway;
+}
+/*main {
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+}*/
