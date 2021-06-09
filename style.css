@@ -71,7 +71,7 @@
 }
 
 body {
-	font-family: Raleway, Calibri, serif;
+	font-family: Raleway, Calibri, "sans-serif";
 	text-align: center;
 	margin: 0;
 	background-image: linear-gradient(45deg, #FFBC42, #218380);
@@ -87,13 +87,13 @@ footer {
 
 	margin: 0, auto;
 	text-align: center;
-	margin-top: 40rem;
+	margin-top: 45rem;
 	margin-bottom: 2rem;
-	font-family: Raleway, serif;
+	font-family: Raleway, Calibri, "sans-serif";
 }
 
 header {
-	font-family: Raleway, Calibri, serif;
+	font-family: Raleway, Calibri, "sans-serif";
 	font-size: 1.165rem;
 	margin: 0 0 4rem 0;
 }
@@ -124,7 +124,7 @@ button {
 	background-image: linear-gradient(90deg, #F68E5F, #F76C5E);
 	filter: opacity(80%);
 	font-size: 1.165rem;
-	font-family: Raleway,Calibri, serif;
+	font-family: Raleway,Calibri, "sans-serif";
 	box-sizing: border-box;
 	color: antiquewhite;
 	text-align: center;
@@ -164,7 +164,7 @@ hr {
 }
 
 @font-face {
-	scr: url(fonts/Raleway-VariableFont_wght.ttf, Raleway-Italic-VariableFont_wght.ttf);
+	scr: url(fonts/Raleway-VariableFont_wght.ttf,);
 	font-family: Raleway;
 }
 /*main {
